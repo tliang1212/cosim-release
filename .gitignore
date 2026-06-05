@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.streamlit/
+.databricks/
+*.pyc
+*.xlsx
+*.xlsm
+*.xls
+!sample_data/*.xlsx

@@ -1,0 +1,21 @@
+bundle:
+  name: cosim-release-dashboard
+
+resources:
+  apps:
+    cosim_release_dashboard:
+      name: cosim-release-dashboard
+      source_code_path: .
+      description: Streamlit dashboard for cosim release timing, content, and issues.
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://replace-me.cloud.databricks.com
+
+  prod:
+    mode: production
+    workspace:
+      host: https://replace-me.cloud.databricks.com
