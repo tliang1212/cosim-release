@@ -74,11 +74,14 @@ service principal permission to read the file.
 From the repository root:
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+On Windows, use `py -m venv .venv` and activate with
+`.venv\Scripts\activate`.
 
 Open the local Streamlit URL that appears in the terminal. Upload your Excel
 file, select the correct worksheet, and adjust the column mapping if needed.
