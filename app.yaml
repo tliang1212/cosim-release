@@ -1,0 +1,6 @@
+command: ['streamlit', 'run', 'app.py']
+env:
+  - name: 'COSIM_EXCEL_PATH'
+    value: 'data/cosim_release_plan.xlsx'
+  - name: 'STREAMLIT_BROWSER_GATHER_USAGE_STATS'
+    value: 'false'
